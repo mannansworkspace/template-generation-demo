@@ -1,0 +1,86 @@
+.mainBorder {
+    border: 16px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(267.71deg, #F02866 -0.6%, #EF6F5C 74.75%);
+}
+
+.primaryBorder {
+    border: 13px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(267.71deg, #F02866 -0.6%, #EF6F5C 74.75%);
+}
+
+.MainImageYellowBorder {
+    border-left: 24px solid #FA991C;
+    border-bottom: 24px solid #FA991C;
+}
+
+.MainImageBlueBorder {
+    border-top: 24px solid #0F4F7A;
+    border-right: 24px solid #0F4F7A;
+}
+
+.bigButton {
+    background: linear-gradient(267.71deg, #F02866 -0.6%, #EF6F5C 74.75%);
+    border-radius: 71.5px;
+}
+.boxShadow {
+    box-shadow: 5px 11px 10px rgba(0, 0, 0, 0.25);
+}
+.TemplateImages:hover {
+    border: 2px solid;
+}
+
+
+
+/* Login page */
+.login-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }

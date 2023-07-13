@@ -1,0 +1,48 @@
+.modal {
+    width: 700px;
+    max-height: 460px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 15px rgba(34, 34, 53, 0.1);
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    left: 0%;
+    right: 0%;
+     
+  }
+  header {
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #eaeaef;
+  }
+  h2 {
+    color: #32324d;
+  }
+  /* Main */
+  main {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-bottom: 2px solid #eaeaef;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 17px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .saveBtn {
+    background: linear-gradient(267.71deg, #F02866 -0.6%, #EF6F5C 74.75%);
+  }
+  
+  /* Media Query */
+ 
